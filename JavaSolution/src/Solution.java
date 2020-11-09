@@ -18,5 +18,11 @@ public class Solution {
 //        int[] lv1KakaoCraneMoves = {1,5,3,5,1,2,1,4};
 //        int lv1KakaoCraneResult = new Lv1KakaoCrane().solution(lv1KakaoCraneBoard,lv1KakaoCraneMoves);
 //        System.out.println("Lv1KakaoCrane.java : Result = "+lv1KakaoCraneResult);
+
+        /** Lv1UncompletedPlayer.java */
+        String[] lv1UncompletedPlayerParticipant = {"leo", "kiki", "eden"};
+        String[] lv1UncompletedPlayerCompletion = {"eden", "kiki"};
+        String lv1UncompletedPlayerResult = new Lv1UncompletedPlayer().solution(lv1UncompletedPlayerParticipant,lv1UncompletedPlayerCompletion);
+        System.out.println("Lv1UncompletedPlayer.java : Result = "+lv1UncompletedPlayerResult);
     }
 }
