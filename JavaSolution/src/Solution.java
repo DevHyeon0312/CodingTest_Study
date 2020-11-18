@@ -31,14 +31,20 @@ public class Solution {
 //        System.out.println("Lv1TrichotomyInversion.java : Result = "+lv1TrichotomyInversionResult);
 
         /** Lv1SplittingNumber */
-        int[] lv1SplittingNumberArr = {5, 9, 7, 10};
-        int lv1SplittingNumberDivisor = 5;
-        int[] lv1SplittingNumberResult = new Lv1SplittingNumber().solution(lv1SplittingNumberArr,lv1SplittingNumberDivisor);
-        for (int i : lv1SplittingNumberResult) {
+//        int[] lv1SplittingNumberArr = {5, 9, 7, 10};
+//        int lv1SplittingNumberDivisor = 5;
+//        int[] lv1SplittingNumberResult = new Lv1SplittingNumber().solution(lv1SplittingNumberArr,lv1SplittingNumberDivisor);
+//        for (int i : lv1SplittingNumberResult) {
+//            System.out.print(i+" ");
+//        }
+//        System.out.print("\n");
+
+        /** Lv1DontLikeSameNumber */
+        int[] lv1DontLikeSameNumberArr = {1,1,3,3,0,1,1};
+        int[] lv1DontLikeSameNumberResult = new Lv1DontLikeSameNumber().solution(lv1DontLikeSameNumberArr);
+        for (int i : lv1DontLikeSameNumberResult) {
             System.out.print(i+" ");
         }
         System.out.print("\n");
-
-
     }
 }
