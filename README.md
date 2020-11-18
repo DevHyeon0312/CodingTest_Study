@@ -36,5 +36,9 @@
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12925
  * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/Lv1StringToInteger.java
 
+#### 8. 체육복
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/42862
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1WorkoutClothes.py
+
 </div>
 </details>
