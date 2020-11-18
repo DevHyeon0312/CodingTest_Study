@@ -20,9 +20,15 @@ public class Solution {
 //        System.out.println("Lv1KakaoCrane.java : Result = "+lv1KakaoCraneResult);
 
         /** Lv1UncompletedPlayer.java */
-        String[] lv1UncompletedPlayerParticipant = {"leo", "kiki", "eden"};
-        String[] lv1UncompletedPlayerCompletion = {"eden", "kiki"};
-        String lv1UncompletedPlayerResult = new Lv1UncompletedPlayer().solution(lv1UncompletedPlayerParticipant,lv1UncompletedPlayerCompletion);
-        System.out.println("Lv1UncompletedPlayer.java : Result = "+lv1UncompletedPlayerResult);
+//        String[] lv1UncompletedPlayerParticipant = {"leo", "kiki", "eden"};
+//        String[] lv1UncompletedPlayerCompletion = {"eden", "kiki"};
+//        String lv1UncompletedPlayerResult = new Lv1UncompletedPlayer().solution(lv1UncompletedPlayerParticipant,lv1UncompletedPlayerCompletion);
+//        System.out.println("Lv1UncompletedPlayer.java : Result = "+lv1UncompletedPlayerResult);
+
+        /** Lv1TrichotomyInversion.java */
+        int lv1TrichotomyInversionNumber = 45;
+        int lv1TrichotomyInversionResult = new Lv1TrichotomyInversion().solution(lv1TrichotomyInversionNumber);
+        System.out.println("Lv1TrichotomyInversion.java : Result = "+lv1TrichotomyInversionResult);
+
     }
 }
