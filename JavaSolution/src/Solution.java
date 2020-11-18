@@ -40,11 +40,15 @@ public class Solution {
 //        System.out.print("\n");
 
         /** Lv1DontLikeSameNumber */
-        int[] lv1DontLikeSameNumberArr = {1,1,3,3,0,1,1};
-        int[] lv1DontLikeSameNumberResult = new Lv1DontLikeSameNumber().solution(lv1DontLikeSameNumberArr);
-        for (int i : lv1DontLikeSameNumberResult) {
-            System.out.print(i+" ");
-        }
-        System.out.print("\n");
+//        int[] lv1DontLikeSameNumberArr = {1,1,3,3,0,1,1};
+//        int[] lv1DontLikeSameNumberResult = new Lv1DontLikeSameNumber().solution(lv1DontLikeSameNumberArr);
+//        for (int i : lv1DontLikeSameNumberResult) {
+//            System.out.print(i+" ");
+//        }
+//        System.out.print("\n");
+
+        /** Lv1StringToInteger */
+        int lv1StringToIntegerResult = new Lv1StringToInteger().solution("55555");
+        System.out.print(lv1StringToIntegerResult);
     }
 }
