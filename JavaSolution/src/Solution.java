@@ -26,9 +26,19 @@ public class Solution {
 //        System.out.println("Lv1UncompletedPlayer.java : Result = "+lv1UncompletedPlayerResult);
 
         /** Lv1TrichotomyInversion.java */
-        int lv1TrichotomyInversionNumber = 45;
-        int lv1TrichotomyInversionResult = new Lv1TrichotomyInversion().solution(lv1TrichotomyInversionNumber);
-        System.out.println("Lv1TrichotomyInversion.java : Result = "+lv1TrichotomyInversionResult);
+//        int lv1TrichotomyInversionNumber = 45;
+//        int lv1TrichotomyInversionResult = new Lv1TrichotomyInversion().solution(lv1TrichotomyInversionNumber);
+//        System.out.println("Lv1TrichotomyInversion.java : Result = "+lv1TrichotomyInversionResult);
+
+        /** Lv1SplittingNumber */
+        int[] lv1SplittingNumberArr = {5, 9, 7, 10};
+        int lv1SplittingNumberDivisor = 5;
+        int[] lv1SplittingNumberResult = new Lv1SplittingNumber().solution(lv1SplittingNumberArr,lv1SplittingNumberDivisor);
+        for (int i : lv1SplittingNumberResult) {
+            System.out.print(i+" ");
+        }
+        System.out.print("\n");
+
 
     }
 }
