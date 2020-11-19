@@ -64,5 +64,16 @@
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12918
  * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1StringBasic.py
  
+#### 15. 소수 찾기
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12921
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1SearchPrime.py
+ 
+#### 16. 수박수박수박수박수박수?
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12922
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1subaksubak.py
+ 
+#### 17. 서울에서 김서방 찾기
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12919
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1SearchKim.py
 </div>
 </details>
