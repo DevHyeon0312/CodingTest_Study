@@ -40,5 +40,29 @@
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/42862
  * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1WorkoutClothes.py
 
+#### 9. 2016년
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12901
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1year2016.py
+ 
+#### 10. 두 정수 사이의 합
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12912
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1SumBetweenInt.py
+ 
+#### 11. 문자열 내 마음대로 정렬하기
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12915
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1StringSortMyMind.py
+ 
+#### 12. 문자열 내 p와 y의 개수
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12916
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1CountPandY.py
+ 
+#### 13. 문자열 내림차순으로 배치하기
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12917
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1DeOrder.py
+ 
+#### 14. 문자열 다루기 기본
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12918
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1StringBasic.py
+ 
 </div>
 </details>
