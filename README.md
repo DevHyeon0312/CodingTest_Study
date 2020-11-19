@@ -75,5 +75,11 @@
 #### 17. 서울에서 김서방 찾기
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12919
  * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1SearchKim.py
+ 
+#### 18. 내적
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/70128
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/Lv1Internal.java
+ 
+ 
 </div>
 </details>
