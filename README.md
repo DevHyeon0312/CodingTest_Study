@@ -18,7 +18,7 @@
 
 #### 4. K번째 수
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/42748
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1Knumber.py
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1Sol42748.py
 
 #### 5. 3진법 뒤집기
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/68935
@@ -38,43 +38,43 @@
 
 #### 8. 체육복
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/42862
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1WorkoutClothes.py
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1Sol42862.py
 
 #### 9. 2016년
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12901
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1year2016.py
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1Sol12901.py
  
 #### 10. 두 정수 사이의 합
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12912
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1SumBetweenInt.py
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1Sol12912.py
  
 #### 11. 문자열 내 마음대로 정렬하기
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12915
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1StringSortMyMind.py
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1Sol12915.py
  
 #### 12. 문자열 내 p와 y의 개수
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12916
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1CountPandY.py
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1Sol12916.py
  
 #### 13. 문자열 내림차순으로 배치하기
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12917
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1DeOrder.py
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1Sol12917.py
  
 #### 14. 문자열 다루기 기본
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12918
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1StringBasic.py
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1Sol12918.py
  
 #### 15. 소수 찾기
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12921
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1SearchPrime.py
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1Sol12921.py
  
 #### 16. 수박수박수박수박수박수?
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12922
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1subaksubak.py
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1Sol12922.py
  
 #### 17. 서울에서 김서방 찾기
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12919
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1SearchKim.py
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv1Sol12919.py
  
 #### 18. 내적
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/70128
