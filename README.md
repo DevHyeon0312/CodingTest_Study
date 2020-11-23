@@ -170,7 +170,7 @@
 </details>
 
 <details>
-<summary>Programmers Lv.4 (4sol) </summary>
+<summary>Programmers Lv.4 (3sol) </summary>
 <div markdown="1">
  
 #### 1. 3 x n 타일링
