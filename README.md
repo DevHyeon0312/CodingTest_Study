@@ -1,7 +1,7 @@
 # CodingTest_Study
 
 <details>
-<summary>Programmers Lv.1</summary>
+<summary>Programmers Lv.1 (36sol) </summary>
 <div markdown="1">
 
 #### 1. 두 개 뽑아서 더하기
@@ -170,7 +170,7 @@
 </details>
 
 <details>
-<summary>Programmers Lv.4</summary>
+<summary>Programmers Lv.4 (4sol) </summary>
 <div markdown="1">
  
 #### 1. 3 x n 타일링
