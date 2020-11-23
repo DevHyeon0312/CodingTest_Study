@@ -166,6 +166,14 @@
 <summary>Programmers Lv.3</summary>
 <div markdown="1">
  
+#### 1. 숫자 게임
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12987
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv3Sol12987.py
+
+#### 2. 방문 길이
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/49994
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv3Sol49994.py
+ 
 </div>
 </details>
 
