@@ -154,3 +154,36 @@
 
 </div>
 </details>
+
+<details>
+<summary>Programmers Lv.2</summary>
+<div markdown="1">
+ 
+</div>
+</details>
+
+<details>
+<summary>Programmers Lv.3</summary>
+<div markdown="1">
+ 
+</div>
+</details>
+
+<details>
+<summary>Programmers Lv.4</summary>
+<div markdown="1">
+ 
+#### 1. 3 x n 타일링
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12902
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv4Sol12902.py
+
+#### 2. 호텔 방 배정
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/64063
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/Lv4Sol64063.java
+
+#### 3. 게임 맵 최단거리
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/1844
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/Lv4Sol1844.java
+
+</div>
+</details>
