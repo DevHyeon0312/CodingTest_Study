@@ -163,7 +163,7 @@
 </details>
 
 <details>
-<summary>Programmers Lv.3</summary>
+<summary>Programmers Lv.3 (2sol) </summary>
 <div markdown="1">
  
 #### 1. 숫자 게임
