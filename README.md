@@ -163,7 +163,7 @@
 </details>
 
 <details>
-<summary>Programmers Lv.3 (2sol) </summary>
+<summary>Programmers Lv.3 (5sol) </summary>
 <div markdown="1">
  
 #### 1. 숫자 게임
@@ -174,6 +174,18 @@
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/49994
  * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv3Sol49994.py
  
+#### 3. 등굣길
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/42898
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv3Sol42898.py
+
+#### 4. 정수 삼각형
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/43105
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv3Sol43105.py
+
+#### 5. 2 x n 타일링
+ * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12900
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv3Sol12900.py
+
 </div>
 </details>
 
