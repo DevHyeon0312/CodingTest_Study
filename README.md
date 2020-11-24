@@ -156,7 +156,7 @@
 </details>
 
 <details>
-<summary>Programmers Lv.2</summary>
+<summary>Programmers Lv.2 (3Sol) </summary>
 <div markdown="1">
  
 #### 1. 스킬트리
@@ -167,10 +167,9 @@
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/42746
  * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/PythonSolution/src/Lv2Sol42746.py
  
- 
 #### 3. 카펫
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/42842
- * Solution  : 
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/Lv2Sol42842.java
 </div>
 </details>
 
