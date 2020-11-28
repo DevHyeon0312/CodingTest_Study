@@ -1,3 +1,5 @@
+package programmers;
+
 /** Created By DevHyeon on 2020.11.20
  *  Question Title : 내적
  *  Algorithm Type : Implementation

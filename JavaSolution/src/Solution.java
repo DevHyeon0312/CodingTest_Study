@@ -1,3 +1,5 @@
+import programmers.Lv1StringToInteger;
+
 import java.util.Arrays;
 
 public class Solution {
@@ -48,7 +50,9 @@ public class Solution {
 //        System.out.print("\n");
 
         /** Lv1StringToInteger */
-        int lv1StringToIntegerResult = new Lv1StringToInteger().solution("55555");
-        System.out.print(lv1StringToIntegerResult);
+//        int lv1StringToIntegerResult = new Lv1StringToInteger().solution("55555");
+//        System.out.print(lv1StringToIntegerResult);
+
+//        System.out.print(new BrokenButton())
     }
 }

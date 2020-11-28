@@ -1,3 +1,5 @@
+package programmers;
+
 import java.util.ArrayList;
 import java.util.Stack;
 
@@ -7,7 +9,7 @@ import java.util.Stack;
  *  Level : 1
  *  Link : https://programmers.co.kr/learn/courses/30/lessons/64061
  * */
-class Lv1KakaoCrane {
+public class Lv1KakaoCrane {
     public static Stack resultStack;
     public static ArrayList<Stack> boardStack;
 

@@ -1,3 +1,5 @@
+package programmers;
+
 import java.util.*;
 
 /** Created By DevHyeon on 2020.11.19
@@ -6,7 +8,7 @@ import java.util.*;
  *  Level : 1
  *  Link : https://programmers.co.kr/learn/courses/30/lessons/12910
  * */
-class Lv1SplittingNumber {
+public class Lv1SplittingNumber {
     public int[] solution(int[] arr, int divisor) {
         int[] answer ={-1};
         ArrayList<Integer> list = new ArrayList<>();

@@ -1,3 +1,5 @@
+package programmers;
+
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Set;
@@ -8,7 +10,7 @@ import java.util.Set;
  *  Level : 1
  *  Link : https://programmers.co.kr/learn/courses/30/lessons/42576
  * */
-class Lv1UncompletedPlayer {
+public class Lv1UncompletedPlayer {
     public String solution(String[] participant, String[] completion) {
         String answer = "";
 
