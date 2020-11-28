@@ -1,3 +1,5 @@
+package programmers;
+
 import java.lang.*;
 
 /** Created By DevHyeon on 2020.11.18
@@ -6,7 +8,7 @@ import java.lang.*;
  *  Level : 1
  *  Link : https://programmers.co.kr/learn/courses/30/lessons/68935
  * */
-class Lv1TrichotomyInversion {
+public class Lv1TrichotomyInversion {
     public int solution(int n) {
         String number = toDeposition(n, 3);
         String reverse = new StringBuffer(number).reverse().toString();
