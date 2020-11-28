@@ -6,15 +6,15 @@
 
 #### 1. 두 개 뽑아서 더하기
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/68644
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/Lv1TwoPlus.java
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/programmers/Lv1TwoPlus.java
 
 #### 2. 크레인 인형뽑기 게임
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/64061
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/Lv1KakaoCrane.java
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/programmers/Lv1KakaoCrane.java
 
 #### 3. 완주하지 못한 선수
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/42576
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/Lv1UncompletedPlayer.java
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/programmers/Lv1UncompletedPlayer.java
 
 #### 4. K번째 수
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/42748
@@ -22,19 +22,19 @@
 
 #### 5. 3진법 뒤집기
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/68935
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/Lv1TrichotomyInversion.java
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/programmers/Lv1TrichotomyInversion.java
 
 #### 5. 나누어 떨어지는 숫자 배열
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12910
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/Lv1SplittingNumber.java
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/programmers/Lv1SplittingNumber.java
 
 #### 6. 같은 숫자는 싫어
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12910
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/Lv1DontLikeSameNumber.java
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/programmers/Lv1DontLikeSameNumber.java
  
 #### 7. 문자열을 정수로 바꾸기
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12925
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/Lv1StringToInteger.java
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/programmers/Lv1StringToInteger.java
 
 #### 8. 체육복
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/42862
@@ -78,7 +78,7 @@
  
 #### 18. 내적
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/70128
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/Lv1Internal.java
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/programmers/Lv1Internal.java
  
 #### 19. 시저암호 
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/12926
@@ -210,11 +210,11 @@
 
 #### 2. 호텔 방 배정
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/64063
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/Lv4Sol64063.java
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/programmers/Lv4Sol64063.java
 
 #### 3. 게임 맵 최단거리
  * Test Link : https://programmers.co.kr/learn/courses/30/lessons/1844
- * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/Lv4Sol1844.java
+ * Solution  : https://github.com/DevHyeon0312/CodingTest_Study/blob/main/JavaSolution/src/programmers/Lv4Sol1844.java
 
 </div>
 </details>
