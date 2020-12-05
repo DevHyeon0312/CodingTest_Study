@@ -56,7 +56,7 @@ public class Solution {
 //        System.out.print(lv1StringToIntegerResult);
 
 
-        for (int i : new Lv2Sol68645().solution(6)) {
+        for (int i : new Lv2Sol68645().solution(9)) {
             System.out.print(i+",");
         }
     }
