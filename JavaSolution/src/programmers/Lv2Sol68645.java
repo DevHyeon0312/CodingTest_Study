@@ -20,35 +20,61 @@ public class Lv2Sol68645 {
         //Add Item
         int item = 1;
 
-        int min = 0;
-        int max = n-1;
-        int w = 0 , h = 0;
+        //startIndex
+        int start = 0;
+
+        //max
+        int wMax = n-1;
+        int hMax = n-1;
+
+        //now
+        int wNow = 0;
+        int hNow = 0;
+
+        int tW = 0;
+        int tH = 0;
 
         boolean isMax = true;
-        int breakPoint = n % 2 == 0 ? n/2 : n/2+1;
 
-        while (true) {
-            if (h == w && h != min) {
-                if (h == max && isMax) {
-                    max--;
-                    isMax = false;
+        //arrItem
+        int arrItem = arr[hNow][wNow];
+        while (arrItem == 0) {
+            System.out.println(wNow+","+hNow+"["+wMax+":"+hMax+"]");
+            arr[hNow][wNow] = item++;
+
+            if (hNow != hMax) {
+                hNow++;
+            }
+            else if (wNow != wMax) {
+                wNow++;
+            }
+            else {
+                if (wNow -1 != start) {
+                    wNow--;
+                    hNow--;
+                    wMax--;
+                    hMax--;
+                    if (isMax) {
+                        tW = wMax;
+                        tH = hMax;
+                        isMax = false;
+                    }
+                } else {
+                    start++;
+                    wNow = start;
+                    hNow = start+1;
+                    isMax = true;
+                    wMax = tW-1;
+                    hMax = tH;
                 }
-                arr[h--][w--] = item++;
-                continue;
             }
 
-            if ( h != max) {
-                arr[h++][w] = item++;
-                min = w+1;
-                isMax = true;
-            } else {
-                arr[h][w++] = item++;
-            }
-
-            if (w == breakPoint && h == breakPoint) {
-                break;
-            }
+            arrItem = arr[hNow][wNow];
         }
+
+        System.out.println(wNow+","+hNow+"["+wMax+":"+hMax+"]");
+        System.out.println(arr[wNow][hNow]);
+
 
 
         //new Array
