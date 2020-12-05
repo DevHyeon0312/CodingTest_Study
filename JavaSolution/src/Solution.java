@@ -1,4 +1,6 @@
+import oncoder.BrokenButton;
 import programmers.Lv1StringToInteger;
+import programmers.Lv2Sol68645;
 
 import java.util.Arrays;
 
@@ -53,6 +55,9 @@ public class Solution {
 //        int lv1StringToIntegerResult = new Lv1StringToInteger().solution("55555");
 //        System.out.print(lv1StringToIntegerResult);
 
-//        System.out.print(new BrokenButton())
+
+        for (int i : new Lv2Sol68645().solution(6)) {
+            System.out.print(i+",");
+        }
     }
 }
