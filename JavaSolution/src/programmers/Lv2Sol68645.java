@@ -20,60 +20,63 @@ public class Lv2Sol68645 {
         //Add Item
         int item = 1;
 
-        //startIndex
-        int start = 0;
+        //startRow
+        int startRow = 0;
+        int startCol = 0;
 
-        //max
-        int wMax = n-1;
-        int hMax = n-1;
+        int row = 0;
+        int col = 0;
 
-        //now
-        int wNow = 0;
-        int hNow = 0;
+        int endRow = n;
+        int endCol = n;
 
-        int tW = 0;
-        int tH = 0;
+        while (true) {
+            col = startCol;
+            row = startRow;
 
-        boolean isMax = true;
-
-        //arrItem
-        int arrItem = arr[hNow][wNow];
-        while (arrItem == 0) {
-            System.out.println(wNow+","+hNow+"["+wMax+":"+hMax+"]");
-            arr[hNow][wNow] = item++;
-
-            if (hNow != hMax) {
-                hNow++;
+            if (row >= endRow || col >= endCol) {
+                break;
             }
-            else if (wNow != wMax) {
-                wNow++;
+
+            if (arr[row][col] != 0) {
+                break;
             }
-            else {
-                if (wNow -1 != start) {
-                    wNow--;
-                    hNow--;
-                    wMax--;
-                    hMax--;
-                    if (isMax) {
-                        tW = wMax;
-                        tH = hMax;
-                        isMax = false;
-                    }
+
+            for (;row<endRow; row++) {
+                arr[row][col] = item++;
+            }
+
+            row--;
+            col++;
+
+            for (;col<endCol; col++) {
+                arr[row][col] = item++;
+            }
+
+            for (;col>endCol; col++) {
+                arr[row][col] = item++;
+            }
+
+            col--;
+
+            while (true) {
+                row--;
+                col--;
+                if (row < 0 || col < 0) {
+                    break;
+                }
+                if (arr[row][col] != 0) {
+                    startRow=row+2;
+                    startCol=col+1;
+                    break;
                 } else {
-                    start++;
-                    wNow = start;
-                    hNow = start+1;
-                    isMax = true;
-                    wMax = tW-1;
-                    hMax = tH;
+                    arr[row][col] = item++;
                 }
             }
 
-            arrItem = arr[hNow][wNow];
+            System.out.println(row+","+col);
+            System.out.println(startRow+","+startCol);
         }
-
-        System.out.println(wNow+","+hNow+"["+wMax+":"+hMax+"]");
-        System.out.println(arr[wNow][hNow]);
 
 
 
