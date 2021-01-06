@@ -10,6 +10,7 @@ public class Solution1 {
         //완주자 인원
         int[] endCount = new int[5];
 
+
         //레코드 재생성 및 map 에 put
         for (String s : record) {
             String[] split = s.split(":");
