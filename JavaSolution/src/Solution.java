@@ -1,3 +1,4 @@
+import cordingtest.Solution1;
 import oncoder.BrokenButton;
 import programmers.Lv1StringToInteger;
 import programmers.Lv2Sol68645;
@@ -8,56 +9,38 @@ public class Solution {
     public static void main(String[] args) {
         //System.out.println("Create Solution Project");
 
-        /** Lv1TwoPlus.java */
-//        int[] lv1TwoPlusNumbers = {2,1,3,4,1};
-//        int[] lv1TwoPlusResult = new Lv1TwoPlus().solution(lv1TwoPlusNumbers);
-//        System.out.print("Lv1TwoPlus.java : Result = ");
-//        for (int i : lv1TwoPlusResult) {
-//            System.out.print(i+" ");
-//        }
-//        System.out.print("\n");
+        /** 2020.12.19 코딩테스트 1번 */
+        //input
+        String[] record =
+                {"jack:9,10,13,9,15","jerry:7,7,14,10,17","jean:0,0,11,20,0","alex:21,2,7,11,4","kevin:8,4,5,0,0","brown:3,5,16,3,18","ted:0,8,0,0,8","lala:0,12,0,7,9","hue:17,16,8,6,10","elsa:11,13,10,4,13"};
+        String[] result = new Solution1().solution(record);
 
-        /** Lv1KakaoCrane.java */
-//        int[][] lv1KakaoCraneBoard = {{0,0,0,0,0}, {0,0,1,0,3},{0,2,5,0,1},{4,2,4,4,2},{3,5,1,3,1}};
-//        int[] lv1KakaoCraneMoves = {1,5,3,5,1,2,1,4};
-//        int lv1KakaoCraneResult = new Lv1KakaoCrane().solution(lv1KakaoCraneBoard,lv1KakaoCraneMoves);
-//        System.out.println("Lv1KakaoCrane.java : Result = "+lv1KakaoCraneResult);
-
-        /** Lv1UncompletedPlayer.java */
-//        String[] lv1UncompletedPlayerParticipant = {"leo", "kiki", "eden"};
-//        String[] lv1UncompletedPlayerCompletion = {"eden", "kiki"};
-//        String lv1UncompletedPlayerResult = new Lv1UncompletedPlayer().solution(lv1UncompletedPlayerParticipant,lv1UncompletedPlayerCompletion);
-//        System.out.println("Lv1UncompletedPlayer.java : Result = "+lv1UncompletedPlayerResult);
-
-        /** Lv1TrichotomyInversion.java */
-//        int lv1TrichotomyInversionNumber = 45;
-//        int lv1TrichotomyInversionResult = new Lv1TrichotomyInversion().solution(lv1TrichotomyInversionNumber);
-//        System.out.println("Lv1TrichotomyInversion.java : Result = "+lv1TrichotomyInversionResult);
-
-        /** Lv1SplittingNumber */
-//        int[] lv1SplittingNumberArr = {5, 9, 7, 10};
-//        int lv1SplittingNumberDivisor = 5;
-//        int[] lv1SplittingNumberResult = new Lv1SplittingNumber().solution(lv1SplittingNumberArr,lv1SplittingNumberDivisor);
-//        for (int i : lv1SplittingNumberResult) {
-//            System.out.print(i+" ");
-//        }
-//        System.out.print("\n");
-
-        /** Lv1DontLikeSameNumber */
-//        int[] lv1DontLikeSameNumberArr = {1,1,3,3,0,1,1};
-//        int[] lv1DontLikeSameNumberResult = new Lv1DontLikeSameNumber().solution(lv1DontLikeSameNumberArr);
-//        for (int i : lv1DontLikeSameNumberResult) {
-//            System.out.print(i+" ");
-//        }
-//        System.out.print("\n");
-
-        /** Lv1StringToInteger */
-//        int lv1StringToIntegerResult = new Lv1StringToInteger().solution("55555");
-//        System.out.print(lv1StringToIntegerResult);
-
-
-        for (int i : new Lv2Sol68645().solution(9)) {
-            System.out.print(i+",");
+        for (String s : result) {
+            System.out.print(s + " ");
         }
+        System.out.println(" ");
+
+        //output
+        System.out.print(result);
+
+        /** 2020.12.19 코딩테스트 2번 */
+        //input
+
+        //output
+
+        /** 2020.12.19 코딩테스트 3번 */
+        //input
+
+        //output
+
+        /** 2020.12.19 코딩테스트 4번 */
+        //input
+
+        //output
+
+        /** 2020.12.19 코딩테스트 5번 */
+        //input
+
+        //output
     }
 }
