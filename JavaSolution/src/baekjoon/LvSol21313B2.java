@@ -32,3 +32,4 @@ public class LvSol21313B2 {
         System.out.println(result);
     }
 }
+
