@@ -1,6 +1,5 @@
 package baekjoon;
 
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -30,21 +29,24 @@ public class LvSol3190G5 {
 
         /** 뱀 이동정보 */
         int L = Integer.parseInt(bufferedReader.readLine()); // 뱀 이동 횟수 : 1 <= L <= 100  , 이동방향 : C = L(-90도) or D(90도) 회전
-        Queue<MOVE> moveQueue = new LinkedList<>(); //뱀이 이동한 정보를 담아두는 큐
-        Deque<SNAKE> snakeQueue = new LinkedList<>(); //뱀의 현재 위치 뎈
+        Queue<MOVE> moveQueue = new LinkedList<>();   //뱀이 이동한 정보를 담아두는 큐
+        Deque<SNAKE> snakeQueue = new LinkedList<>(); //뱀의 현재 위치를 담아두는 뎈
         for (int i=0; i<L; i++) {
             StringTokenizer st = new StringTokenizer(bufferedReader.readLine());
-            int time = Integer.parseInt(st.nextToken()); // time 초간 직진
+            int time = Integer.parseInt(st.nextToken());    // time 초까지 직진
             int move = st.nextToken().equals("D") ? 1 : -1; // time 초 후에 move. 1은  90도, -1은 -90도 회전
             moveQueue.add(new MOVE(time,move));
         }
+        //뱀의 시작점
         snakeQueue.add(new SNAKE(1,1));
         BOARD[1][1] = -1;
+
 
         /** 게임 스타뜨 >< */
         int move = 1; // 1=우, 2=하, 3=좌, 4=상
         int playTime = 0;
         while (true) {
+            //뱀의 다음 움직임
             MOVE moving = null;
             if(!moveQueue.isEmpty()) {
                 moving = moveQueue.peek();
@@ -86,7 +88,7 @@ public class LvSol3190G5 {
                 snakeQueue.addFirst(head);
             }
 
-            //방향을 바꿀지 말지 결정해요
+            //방향을 바꿀지 말지 결정 : 이동정보가 있는 상황이면 해당 이동정보의 시간에 이동정보 적용
             if(moving != null && playTime == moving.time) {
                 move = move + moving.move;
                 move = move > 4 ? 1 : move < 1 ? 4 : move;
@@ -94,12 +96,13 @@ public class LvSol3190G5 {
             }
         }
 
+        print2array(BOARD);
         System.out.println(playTime);
     }
 
     /** 뱀이 움직이는 정보 객체*/
     static class MOVE {
-        int time;// time 초간 직진
+        int time;// time 초까지 직진
         int move;// time 초 후에 move. 1은  90도, -1은 -90도 회전
         public MOVE(int time, int move) {
             this.time = time;
