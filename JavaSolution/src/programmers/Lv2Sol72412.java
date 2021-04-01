@@ -6,8 +6,9 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class Lv2Sol72412 {
+    /** O(N) + O(NlogN) + O(NlogN)  */
     public static void main(String[] args) throws IOException {
-        String[] info = {"java backend junior pizza 150", "python frontend senior chicken 210", "python frontend senior chicken 150", "cpp backend senior pizza 260", "java backend junior chicken 80", "python backend senior chicken 50"};
+        String[] info = {"java backend junior pizza 150"};//, "python frontend senior chicken 210", "python frontend senior chicken 150", "cpp backend senior pizza 260", "java backend junior chicken 80", "python backend senior chicken 50"};
         String[] query = {"java and backend and junior and pizza 100", "python and frontend and senior and chicken 200", "cpp and - and senior and pizza 250", "- and backend and senior and - 150", "- and - and - and chicken 100", "- and - and - and - 150"};
         System.out.println(Arrays.toString(solution(info, query)));
 
@@ -24,7 +25,7 @@ public class Lv2Sol72412 {
          * score
          * */
 
-        /** O(N) */
+        /** input : O(N) */
         LANGUAGE language = new LANGUAGE();
         for (int i = 0; i < info.length; i++) {
             String[] user = info[i].split(" ");
@@ -35,7 +36,7 @@ public class Lv2Sol72412 {
             language.addBranch(lan,branch,career,food,Integer.parseInt(user[4]));
         }
 
-        /** O(4*3*3*3*NlogN) */
+        /** input2 : O(4*3*3*3*NlogN) */
         for (int i=0; i<4;i++) {
             for (int j=0;j<3;j++) {
                 for (int k=0; k<3; k++) {
@@ -58,7 +59,7 @@ public class Lv2Sol72412 {
         }
 
         int i=0;
-        /** O(NlogN) */
+        /** output : O(NlogN) */
         //쿼리
         /** O(N) */
         for (String q : query) {
@@ -214,6 +215,7 @@ public class Lv2Sol72412 {
         //all SCORE
         SCORE all = new SCORE();
         public void addScore(int food, int score) {
+            System.out.println("ADD 호출됨");
             switch (food) {
                 case 0:
                     chicken.getScores().add(score);
