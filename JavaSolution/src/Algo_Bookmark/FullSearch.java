@@ -66,4 +66,30 @@ public class FullSearch {
         }
         return arrayList;
     }
+
+    /** int[] 배열내부 전체 모든 경우의 수 : ex. 1,2,3 != 1,3,2 를 정수로 반환 */
+    public static ArrayList<Integer> fullAdd_toInt(int[] array, int[] output, boolean[] isVisit, int depth, int length, int count, int nullValue) {
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        if(count==0) {
+            StringBuilder builder = new StringBuilder();
+            for (int i : output) {
+                if(i!=-1) {
+                    builder.append(i);
+                }
+            }
+            arrayList.add(Integer.parseInt(builder.toString()));
+
+            //중복 허용
+            return arrayList;
+        }
+        for(int i=0; i<length; i++) {
+            if(!isVisit[i]) {
+                isVisit[i] = true;
+                output[depth] = array[i];
+                arrayList.addAll(fullAdd_toInt(array, output, isVisit, depth+1, length, count-1,nullValue));
+                isVisit[i] = false;
+            }
+        }
+        return arrayList;
+    }
 }
