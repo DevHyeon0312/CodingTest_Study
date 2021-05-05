@@ -1,14 +1,16 @@
 package baekjoonSolution
 
+import kotlin.math.pow
+
 fun main() {
     while (true) {
-        val list = readLine()!!.split(" ").map { it.toDouble() }.sorted()
+        val (A,B,C) = readLine()!!.split(" ").map { it.toDouble() }.sorted()
 
-        if(list[0]==0.0 && list[1]==0.0 && list[2]==0.0) {
+        if(A==0.0 && B==0.0 && C==0.0) {
             break
         }
 
-        if((list[0]*list[0] + list[1]*list[1]) == list[2]*list[2]) {
+        if(A.pow(2) + B.pow(2) == C.pow(2)) {
             println("right")
         } else {
             println("wrong")
