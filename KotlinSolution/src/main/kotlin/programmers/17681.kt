@@ -3,6 +3,7 @@ package programmers
 import java.lang.StringBuilder
 
 fun main() {
+
     val n = 5
     val arr1:IntArray = intArrayOf(1, 20, 28, 18, 11)
     val arr2:IntArray = intArrayOf(3, 1, 21, 17, 28)
