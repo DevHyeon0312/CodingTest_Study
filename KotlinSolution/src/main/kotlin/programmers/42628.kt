@@ -19,15 +19,16 @@ class Solution_42628 {
             if (it.first == "I") {
                 answer.add(it.second)
             } else {
-                val maxOrMin = if (it.second == 1) answer.max() else answer.min()
+
+                val maxOrMin = if (it.second == 1) answer.maxOrNull() else answer.minOrNull()
                 maxOrMin?.let {
                     answer.remove(maxOrMin)
                 }
             }
         }
 
-        val max = answer.max() ?: 0
-        val min = answer.min() ?: 0
+        val max = answer.maxOrNull() ?: 0
+        val min = answer.minOrNull() ?: 0
         return intArrayOf(max, min)
     }
 }
